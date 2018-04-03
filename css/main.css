@@ -1,0 +1,125 @@
+html, body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header {
+    padding: 50px;
+    text-align: center;
+    align-content: center;
+}
+#header_title {
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    align-content: center;
+}
+
+.nav_link {
+    padding: 20px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.nav_link a {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+.nav_link a:hover {
+    text-decoration: none;
+    text-shadow: 5px 5px 10px #888888;
+}
+
+
+.projects {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+.project_container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+}
+.project_container:hover {
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.project_title {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.project_title p {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 1.5em;
+    width: 100%;
+}
+#display_discription {
+    padding: 10px;
+    width: 75%;
+    background-color: blue;
+    display: inline-flex;
+}
+#display_discription img {
+    float: left;
+}
+
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+.soon_content {
+    text-align: center;
+    align-content: center;
+    color: black;
+}
+.soon_content a, i {
+    padding: 10px;
+    color: black;
+}
+.soon_content a:hover {
+    text-decoration: none;
+    text-shadow: 5px 5px 10px #888888;
+}
+
+
+canvas {
+    border:1px solid #000000;
+}
+
+main h1 {
+    text-align: center;
+    align-content: center;
+}
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+footer {
+    text-align: center;
+    align-content: center;
+}
